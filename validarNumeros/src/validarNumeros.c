@@ -27,7 +27,10 @@ int main(void) {
 		saldoDelBanco = atoi(texto);
 	}
 
+	scanf("%s", texto);
+
 	printf("\ntenes %d pesos",saldoDelBanco);
+	printf("%s", texto);
 
 	return EXIT_SUCCESS;
 }
